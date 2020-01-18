@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node ./src/server"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "rc": "^1.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "jest": "^24.9.0",
+    "mockgoose": "^8.0.4",
+    "supertest": "^4.0.2"
+  }
+}
