@@ -4,6 +4,7 @@ const app = express();
 
 const { UserController } = require("./modules/user/user.module");
 
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
@@ -14,6 +15,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/app/v1/users", UserController);
+app.use("/api/v1/users", UserController);
 
 module.exports = app;

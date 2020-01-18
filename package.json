@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node ./src/server"
+    "start": "node ./src/server",
+    "dev": "nodemon ./src/server"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -12,8 +13,10 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-jest": "^23.6.0",
+    "faker": "^4.1.0",
     "jest": "^24.9.0",
     "mockgoose": "^8.0.4",
+    "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   }
 }

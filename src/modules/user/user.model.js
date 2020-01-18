@@ -4,7 +4,8 @@ const { genSalt, hash } = require("bcryptjs");
 const userSchema = new Schema({
   login: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   password: {
     type: String,
